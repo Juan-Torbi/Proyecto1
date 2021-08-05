@@ -1,0 +1,158 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+}
+.body{
+    background-color: aquamarine;
+}
+.redes{
+    text-align: center;
+    margin: 20px;
+}
+.redeslogos{
+    display: grid;
+    grid-template-areas:
+    "ImgIG IG"
+    "ImgFB FB"
+    ;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+.imgig{
+    grid-area: ImgIG;
+    height: 100px;
+    width: 100px;
+
+}
+.ig{
+    grid-area: IG;
+}
+.imgfb{
+    grid-area: ImgFB;
+    height: 100px;
+    width: 100px;
+}
+.fb{
+    grid-area: FB;
+}
+.envios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    text-align: center;
+}
+h5{
+    font-size: 100px;
+}
+.hacemos{
+    font-size: 50px;
+}
+.cualquier{
+    font-size: 50px;
+}
+.nosotrostexto{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.parrafonosotros{
+    font-size: 20px;
+    text-align: justify;
+}
+.productosimg{
+    display: grid;
+    grid-template-areas: 
+    "img12 p1 img1"
+    "img11 p4 img10"
+    "img7 p3 img9"
+    ;
+  }
+  .img12{
+    grid-area: img12;
+    width: 700px;
+    transition: height 2s, width 3s;
+  }
+  .img12:hover{
+    height:1000px ;
+    width:1000px ;
+  
+  }
+  .p1{
+    grid-area: p1;
+    text-align: center;
+    font-size: 3rem;
+    background-color: blueviolet;
+  }
+  .img1{
+    grid-area: img1;
+    width: 700px;
+    height: 54vh;
+    transition: height 2s, width 3s;
+  }
+  .img1:hover{
+    height:1000px ;
+    width:1000px ;
+  
+  }
+  .img11{
+    grid-area: img11;
+    width: 700px;
+    transition: height 2s, width 3s;
+  }
+  .img11:hover{
+    height:1000px ;
+    width:1000px ;
+  
+  }
+  .p4{
+    grid-area: p4;
+    text-align: center;
+    font-size: 3rem;
+    background-color: blueviolet;
+  }
+  .img10{
+    grid-area: img10;
+    width: 700px;
+    transition: height 2s, width 3s;
+  }
+  .img10:hover{
+    height:1000px ;
+    width:1000px ;
+  
+  }
+  .img7{
+    grid-area: img7;
+    width: 700px;
+    transition: height 2s, width 3s;
+  }
+  .img7:hover{
+    height:1000px ;
+    width:1000px ;
+  
+  }
+  .p3{
+    grid-area: p3;
+    text-align: center;
+    font-size: 3rem;
+    background-color: blueviolet;
+  }
+  .img9{
+    grid-area: img9;
+    width: 700px;
+    transition: height 2s, width 3s;
+  }
+  .img9:hover{
+    height:1000px ;
+    width:1000px ;
+  
+  } 
+  .consulta{
+    text-align: center;
+    font-size: 5rem;
+    background-color: blueviolet;
+  }
